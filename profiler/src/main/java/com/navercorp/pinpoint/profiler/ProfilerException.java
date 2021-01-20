@@ -16,6 +16,9 @@
 
 package com.navercorp.pinpoint.profiler;
 
+/**
+ * Profile 异常
+ */
 public class ProfilerException extends RuntimeException {
     /**
      * 

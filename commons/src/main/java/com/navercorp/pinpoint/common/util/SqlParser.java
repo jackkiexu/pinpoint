@@ -19,6 +19,7 @@ package com.navercorp.pinpoint.common.util;
 import java.util.List;
 
 /**
+ * SQL 解析器
  * @author emeroad
  */
 public class SqlParser {

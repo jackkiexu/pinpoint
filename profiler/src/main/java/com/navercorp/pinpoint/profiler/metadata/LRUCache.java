@@ -22,7 +22,7 @@ import com.google.common.cache.CacheBuilder;
 import java.util.concurrent.ConcurrentMap;
 
 
-/**
+/** 基于 guava 的  LRU 缓存
  * Concurrent LRU cache
  * @author emeroad
  */

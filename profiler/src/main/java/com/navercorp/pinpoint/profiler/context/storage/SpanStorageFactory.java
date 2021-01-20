@@ -18,7 +18,7 @@ package com.navercorp.pinpoint.profiler.context.storage;
 
 import com.navercorp.pinpoint.profiler.sender.DataSender;
 
-/**
+/** SpanEvent 存储器工厂
  * @author emeroad
  */
 public class SpanStorageFactory implements StorageFactory {

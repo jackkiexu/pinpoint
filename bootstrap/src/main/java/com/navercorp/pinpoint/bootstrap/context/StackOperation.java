@@ -16,7 +16,7 @@
 
 package com.navercorp.pinpoint.bootstrap.context;
 
-/**
+/** 堆栈操作
  * @author emeroad
  */
 public interface StackOperation {

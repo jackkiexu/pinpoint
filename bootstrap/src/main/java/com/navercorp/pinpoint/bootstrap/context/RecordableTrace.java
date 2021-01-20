@@ -21,7 +21,7 @@ import com.navercorp.pinpoint.common.AnnotationKey;
 import com.navercorp.pinpoint.common.ServiceType;
 import com.navercorp.pinpoint.common.util.ParsingResult;
 
-/**
+/** 记录 Trace 的接口
  * @author emeroad
  */
 public interface RecordableTrace {

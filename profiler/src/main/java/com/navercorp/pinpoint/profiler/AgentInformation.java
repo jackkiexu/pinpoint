@@ -21,7 +21,7 @@ import com.navercorp.pinpoint.common.ServiceType;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
+/** agent 信息
  * @author emeroad
  * @author koo.taejin
  * @author hyungil.jeong

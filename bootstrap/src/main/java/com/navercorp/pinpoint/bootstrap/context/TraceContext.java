@@ -21,7 +21,7 @@ import com.navercorp.pinpoint.bootstrap.interceptor.MethodDescriptor;
 import com.navercorp.pinpoint.common.ServiceType;
 import com.navercorp.pinpoint.common.util.ParsingResult;
 
-/**
+/** Trace 上下文
  * @author emeroad
  * @author hyungil.jeong
  */

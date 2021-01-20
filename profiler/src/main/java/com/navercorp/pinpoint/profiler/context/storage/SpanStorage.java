@@ -24,7 +24,7 @@ import com.navercorp.pinpoint.thrift.dto.TSpanEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/** Span 事件存储器, 直接通过 DataSender 将数据发送出去
  * @author emeroad
  */
 public class SpanStorage implements Storage {

@@ -22,7 +22,7 @@ import com.navercorp.pinpoint.profiler.context.SpanEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
+/** 基于日志的存储器
  * @author emeroad
  */
 public class LogStorageFactory implements StorageFactory {

@@ -19,6 +19,7 @@ package com.navercorp.pinpoint.profiler.sampler;
 import com.navercorp.pinpoint.bootstrap.sampler.Sampler;
 
 /**
+ * 采样率工厂, 默认返回 简单采样器
  * @author emeroad
  */
 public class SamplerFactory {

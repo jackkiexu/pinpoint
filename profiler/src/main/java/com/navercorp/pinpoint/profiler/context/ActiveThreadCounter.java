@@ -18,7 +18,7 @@ package com.navercorp.pinpoint.profiler.context;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
+/** 激活线程计算器
  * @author emeroad
  */
 public class ActiveThreadCounter {

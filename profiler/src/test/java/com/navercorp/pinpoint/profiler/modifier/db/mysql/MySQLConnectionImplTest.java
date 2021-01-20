@@ -24,6 +24,8 @@ import com.navercorp.pinpoint.profiler.logging.Slf4jLoggerBinder;
 import com.navercorp.pinpoint.test.MockAgent;
 import com.navercorp.pinpoint.test.TestClassLoader;
 
+import org.junit.Before;
+import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,7 +37,7 @@ public class MySQLConnectionImplTest {
 
     private TestClassLoader loader;
 
-//    @Before
+    @Before
     public void setUp() throws Exception {
         PLoggerFactory.initialize(new Slf4jLoggerBinder());
         DefaultAgent agent = MockAgent.of("pinpoint.config");
@@ -43,8 +45,9 @@ public class MySQLConnectionImplTest {
         loader.initialize();
     }
 
-//    @Test
+    @Test
     public void test() throws Throwable {
+        System.out.println("");
         // This is an example of test which loads test class indirectly.  
 //        loader.runTest("com.navercorp.pinpoint.profiler.modifier.db.mysql.MySQLConnectionImplModifierTest", "testModify");
     }

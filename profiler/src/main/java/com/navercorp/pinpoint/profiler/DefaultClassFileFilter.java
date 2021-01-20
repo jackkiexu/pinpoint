@@ -18,7 +18,7 @@ package com.navercorp.pinpoint.profiler;
 
 import java.security.ProtectionDomain;
 
-/**
+/** class 过滤器
  * @author emeroad
  */
 public class DefaultClassFileFilter implements ClassFileFilter {

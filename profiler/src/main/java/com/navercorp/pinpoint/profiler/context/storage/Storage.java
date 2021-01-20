@@ -19,7 +19,7 @@ package com.navercorp.pinpoint.profiler.context.storage;
 import com.navercorp.pinpoint.profiler.context.Span;
 import com.navercorp.pinpoint.profiler.context.SpanEvent;
 
-/**
+/** 存储器
  * @author emeroad
  */
 public interface Storage {

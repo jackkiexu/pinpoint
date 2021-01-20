@@ -16,7 +16,7 @@
 
 package com.navercorp.pinpoint.bootstrap.context;
 
-/**
+/** 默认实现: DefaultTraceId
  * @author emeroad
  */
 public interface TraceId {

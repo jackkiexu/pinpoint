@@ -21,7 +21,7 @@ import java.util.List;
 
 import com.navercorp.pinpoint.bootstrap.context.ServiceInfo;
 
-/**
+/** 服务信息
  * @author hyungil.jeong
  */
 public class DefaultServiceInfo implements ServiceInfo {

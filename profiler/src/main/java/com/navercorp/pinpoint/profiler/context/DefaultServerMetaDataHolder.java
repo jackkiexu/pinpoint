@@ -29,7 +29,7 @@ import com.navercorp.pinpoint.bootstrap.context.ServerMetaData;
 import com.navercorp.pinpoint.bootstrap.context.ServerMetaDataHolder;
 import com.navercorp.pinpoint.bootstrap.context.ServiceInfo;
 
-/**
+/** 服务端原数据获取器
  * @author hyungil.jeong
  */
 public class DefaultServerMetaDataHolder implements ServerMetaDataHolder {

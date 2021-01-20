@@ -21,7 +21,7 @@ import com.navercorp.pinpoint.profiler.AgentInformation;
 import com.navercorp.pinpoint.profiler.context.SpanChunkFactory;
 import com.navercorp.pinpoint.profiler.sender.DataSender;
 
-/**
+/** Buffer 数据存储器
  * @author emeroad
  */
 public class BufferedStorageFactory implements StorageFactory {

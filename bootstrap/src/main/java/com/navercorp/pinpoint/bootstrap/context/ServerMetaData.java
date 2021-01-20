@@ -19,12 +19,12 @@ package com.navercorp.pinpoint.bootstrap.context;
 import java.util.List;
 import java.util.Map;
 
-/**
+/** 服务端 原数据
  * @author hyungil.jeong
  */
 public interface ServerMetaData {
     String getServerInfo();
-    
+    // JVM 参数
     List<String> getVmArgs();
 
     Map<Integer, String> getConnectors();

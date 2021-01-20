@@ -20,7 +20,7 @@ import com.navercorp.pinpoint.bootstrap.context.TraceId;
 import com.navercorp.pinpoint.common.util.TransactionId;
 import com.navercorp.pinpoint.common.util.TransactionIdUtils;
 
-/**
+/** 默认 TraceId
  * @author emeroad
  */
 public class DefaultTraceId implements TraceId {

@@ -17,6 +17,11 @@
 package com.navercorp.pinpoint.bootstrap.sampler;
 
 /**
+ *  pinpoint 的采样器, 它有三个子类
+ *      1. TrueSampler: 永远返回 true
+ *      2. FalseSampler: 永远返回 false
+ *      3. SamplingRateSampler: 简单采样器
+ *
  * @author emeroad
  */
 public interface Sampler {

@@ -27,6 +27,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class SamplingRateSampler implements Sampler {
 
     private final AtomicInteger counter = new AtomicInteger(0);
+    // 采样率
     private final int samplingRate;
 
     public SamplingRateSampler(int samplingRate) {
@@ -36,8 +37,10 @@ public class SamplingRateSampler implements Sampler {
         this.samplingRate = samplingRate;
     }
 
-
-
+    /**
+     * 通过 采样率 与 samplingCount 获取 是否进行采样
+     * @return
+     */
     @Override
     public boolean isSampling() {
         int samplingCount = MathUtils.fastAbs(counter.getAndIncrement());

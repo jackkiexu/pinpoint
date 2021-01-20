@@ -23,7 +23,7 @@ import com.navercorp.pinpoint.common.util.BytesUtils;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
+/** 基于 ConcurrentHashMap 的 cache
  * @author emeroad
  */
 public class SimpleCache<T> {

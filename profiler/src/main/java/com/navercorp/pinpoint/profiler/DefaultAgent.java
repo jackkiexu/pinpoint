@@ -125,7 +125,7 @@ public class DefaultAgent implements Agent {
         final ApplicationServerTypeResolver typeResolver = new ApplicationServerTypeResolver(profilerConfig.getApplicationServerType());
         if (!typeResolver.resolve()) {
             throw new PinpointException("ApplicationServerType not found.");
-        }
+        } // Javassist 处理器
         this.byteCodeInstrumentor = new JavaAssistByteCodeInstrumentor(this);
         if (logger.isInfoEnabled()) {
             logger.info("DefaultAgent classLoader:{}", this.getClass().getClassLoader());
@@ -231,6 +231,7 @@ public class DefaultAgent implements Agent {
         final StorageFactory storageFactory = createStorageFactory();
         logger.info("StorageFactoryType:{}", storageFactory);
 
+        // 创建采样率
         final Sampler sampler = createSampler();
         logger.info("SamplerType:{}", sampler);
         
@@ -253,6 +254,10 @@ public class DefaultAgent implements Agent {
         }
     }
 
+    /**
+     * 根据配置中心创建 采样率
+     * @return
+     */
     private Sampler createSampler() {
         boolean samplingEnable = this.profilerConfig.isSamplingEnable();
         int samplingRate = this.profilerConfig.getSamplingRate();

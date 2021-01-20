@@ -34,6 +34,11 @@ public class SpanChunkFactory {
         this.agentInformation = agentInformation;
     }
 
+    /**
+     * 将一系列 SpanEvent 组装成 SpanChunk
+     * @param flushData
+     * @return
+     */
     public SpanChunk create(final List<SpanEvent> flushData) {
         if (flushData == null) {
             throw new NullPointerException("flushData must not be null");

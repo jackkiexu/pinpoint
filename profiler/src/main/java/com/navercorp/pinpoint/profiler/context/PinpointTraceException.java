@@ -18,7 +18,7 @@ package com.navercorp.pinpoint.profiler.context;
 
 import com.navercorp.pinpoint.exception.PinpointException;
 
-/**
+/** PinPoint 异常
  * @author emeroad
  */
 public class PinpointTraceException extends PinpointException {

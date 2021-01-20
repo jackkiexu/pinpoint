@@ -18,7 +18,7 @@ package com.navercorp.pinpoint.bootstrap.context;
 
 import java.util.List;
 
-/**
+/** 服务信息
  * @author hyungil.jeong
  */
 public interface ServiceInfo {

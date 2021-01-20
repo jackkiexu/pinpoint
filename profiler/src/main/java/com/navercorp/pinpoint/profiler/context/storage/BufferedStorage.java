@@ -37,7 +37,9 @@ public class BufferedStorage implements Storage {
     private final int bufferSize;
 
     private List<SpanEvent> storage ;
+    // 数据发送器
     private final DataSender dataSender;
+
     private final SpanChunkFactory spanChunkFactory;
 
     public BufferedStorage(DataSender dataSender, SpanChunkFactory spanChunkFactory) {

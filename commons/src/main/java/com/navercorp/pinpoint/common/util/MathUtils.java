@@ -23,8 +23,14 @@ public final class MathUtils {
     private MathUtils() {
     }
 
+    /**
+     * 返回 value 的绝对值, 若是负数时, 则直接返回正直
+     * @param value
+     * @return
+     */
     public static int fastAbs(final int value) {
-        return value & Integer.MAX_VALUE;
+        int resultValue =  value & Integer.MAX_VALUE;
+        return resultValue;
     }
 
     public static long roundToNearestMultipleOf(final long num, final long multipleOf) {

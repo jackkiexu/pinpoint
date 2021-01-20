@@ -70,9 +70,9 @@ public class IsolateMultipleClassPool implements MultipleClassPool {
         if (eventListener == null) {
             throw new NullPointerException("eventListener must not be null");
         }
-
+        //  生成 javassist 的  ClassPool
         this.rootClassPool = createRootClassPool(rootClassPoolHandler);
-        this.classPoolMap = Maps.newWeakConcurrentMap();
+        this.classPoolMap = Maps.newWeakConcurrentMap();  // 生成并发安全的  Map
         this.eventListener = eventListener;
         this.childFirstLookup = childFirstLookup;
     }

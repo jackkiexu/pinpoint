@@ -16,14 +16,9 @@
 
 package com.navercorp.pinpoint.bootstrap.context;
 
-/**
+/** PinPoint trace 接口
  * @author emeroad
  */
 public interface Trace extends RecordableTrace, StackOperation {
-
-
-
-
-
 
 }

@@ -28,7 +28,7 @@ import java.util.Map;
 import com.navercorp.pinpoint.common.util.RpcCodeRange;
 import com.navercorp.pinpoint.common.util.apache.IntHashMap;
 
-/**
+/** PinPoint 记录的服务类型
  * @author emeroad
  * @author netspider
  */

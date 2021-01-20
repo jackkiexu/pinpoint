@@ -20,7 +20,7 @@ import com.navercorp.pinpoint.profiler.util.jdk.ThreadLocalRandom;
 
 import java.util.Random;
 
-/**
+/** SpanId
  * @author emeroad
  */
 public class SpanId {
